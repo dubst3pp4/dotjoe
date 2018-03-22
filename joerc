@@ -25,11 +25,11 @@
  -left nn	Amount to jump left when scrolling is necessary (-1 for 1/4 width)
  -right nn	Amount to jump right when scrolling is necessary (-1 for 1/4 width)
 
- -marking	Text between ^KB and cursor is highlighted (use with -lightoff)
+-marking	Text between ^KB and cursor is highlighted (use with -lightoff)
 
  -asis		Characters 128 - 255 shown as-is
 
- -force		Force final newline when files are saved
+-force		Force final newline when files are saved
 
  -nolocks	If you don't want file locks to be used
 
@@ -51,7 +51,7 @@
 		and symbolic links.
 
 
- -lightoff	Turn off highlighting after block copy or move
+-lightoff	Turn off highlighting after block copy or move
 
  -exask		^KX always confirms file name
 
@@ -65,7 +65,7 @@
 
  -undo_keep nnn	Number of undo records to keep.  0 for infinite.
 
- -csmode	^KF after a pervious search does a ^L instead
+-csmode	^KF after a pervious search does a ^L instead
 
  -backpath path
 		Directory to store backup files (one space between
@@ -139,7 +139,7 @@
 
  -icase         Search is case insensitive by default.
 
- -wrap          Search wraps
+-wrap          Search wraps
 
  -autoswap	Swap markb with markk when necessary
 
@@ -224,8 +224,8 @@
   \f  Blink
   \l  Italic
 
--lmsg \i%k%T%W%I%X %n %m%y%R %M %x
--rmsg  %S Row %4r Col %3c 
+-lmsg \i%k%T%W%I%X %n %e %m%y%R %M %x
+-rmsg  %S Row %4r Col %3c Lines %4l %u
 -smsg ** Line %r Col %c Offset %o(0x%O) %e %a(0x%A) Width %w ** 
 -zmsg ** Line %r Col %c Offset %o(0x%O) ** 
 -xmsg \i Joe's Own Editor %v (%b) ** Type \bCtrl-K Q\b to exit or \bCtrl-K H\b for help **\i
